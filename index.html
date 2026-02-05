@@ -7,38 +7,50 @@
     <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-    <dir class="p-3 flex flex-row gap-10 justify-between text-xl border-b-2">
+    <div class="p-3 flex flex-row gap-10 justify-between text-xl ">
         <a href="./index.html" class="justify-left font-bold text-3xl" >CS2-foryou</a>
-        <dir class="justify-right flex flex-row gap-20 px-10 items-center">
-            <dir class="font-bold text-red-800">OPEN NOW</dir>
+        <div class="justify-right flex flex-row gap-20 px-10 items-center">
+            <div class="font-bold text-red-800">OPEN NOW</div>
             <a href="./cases.html" class="hover:text-gray-700">Cases</a>
             <a href="./contacts.html" class="hover:text-gray-700">Contacts</a>
             <a href="./about.html" class="hover:text-gray-700">About</a>
             
-        </dir>
-    </dir>
-    </dir>
+        </div>
+    </div>
+    </div>
 
-    <dir>
-        <dir class="flex py-50 border-b-2 flex-col items-center gap-5">
-            <dir class="text-9xl">CS2-foryou</dir>
-            <dir class="text-3xl">CS2 case simulator</dir>
-            <dir class="text-xl rounded-full p-4 bg-sky-600 text-white">OPEN NOW FOR FREE</dir>
-        </dir>
-    </dir>
+    <div class="relative overflow-hidden border-b-2">
+        <div class="absolute inset-0 bg-[url(/img/bg.png)] bg-cover bg-center bg-fixed blur-xs scale-105"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative flex py-45 flex-col items-center gap-5">
+            <div class="text-9xl text-white font-bold">CS2-foryou</div>
+            <div class="text-3xl text-white font-semibold">CS2 case simulator</div>
+            <div class="text-xl rounded-full p-4 bg-sky-600 hover:bg-sky-500 transition text-white cursor-pointer">
+                OPEN NOW FOR FREE
+            </div>
+        </div>
+
+    </div>
 
 
-    <dir class="h-70">
-        <dir>
-            <dir class="px-10 py-5 text-5xl flex ">Available cases:</dir>
-        </dir>
-        <dir class="flex flex-row gap-60 p-15 justify-center">
-            <dir>img1</dir>
-            <dir>img2</dir>
-            <dir>img3</dir>
-            <dir>img4</dir>
-            <dir>img5</dir>
-        </dir>
-    </dir>
+    <div class="h-70">
+        <div>
+            <div class="px-10 py-5 text-5xl flex ">Available cases:</div>
+        </div>
+        <div class="flex flex-row gap-30 p-15 justify-center">
+            <div><img src="img/Chroma2.png" alt="" class="">
+                <div class="flex justify-center font-bold">Chroma 2</div>
+            </div>
+            <div><img src="img/Dangerzone.png" alt="" class="">
+            <div class="flex justify-center font-bold">Dangerzone</div></div>
+            <div><img src="img/Dreams.png" alt="" class="">
+            <div class="flex justify-center font-bold">Dreams & Nightmares</div>
+            </div>
+            <div><img src="img/Fracture.png" alt="" class="">
+            <div class="flex justify-center font-bold">Fracture</div></div>
+            <div><img src="img/Hydra.png" alt="" class="">
+            <div class="flex justify-center font-bold">Hydra</div></div>
+        </div>
+    </div>
 </body>
 </html>
